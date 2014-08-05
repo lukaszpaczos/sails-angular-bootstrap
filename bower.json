@@ -1,0 +1,22 @@
+{
+    "name": "sailsjs-angularjs-bootstrap-simple",
+    "version": "1.0.0",
+    "description": "Sails.js / AngularJS / Twitter Bootstrap project",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "bootstrap": "3.1.1",
+        "jquery": "1.x",
+        "angular": "latest",
+        "angular-route":"latest",
+        "angular-bootstrap": "latest",
+        "socket.io-client": "~0.9.16",
+        "bower-sails.io": "latest"
+    }
+}
+

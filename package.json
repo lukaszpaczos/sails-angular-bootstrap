@@ -1,0 +1,22 @@
+{
+    "name": "Sails-Angular-Bootstrap",
+    "private": true,
+    "version": "1.0.0",
+    "description": "A Sails.js / AngularJS / Twitter Bootstrap",
+    "dependencies": {
+        "sails": "0.9.16",
+        "sails-disk": "~0.9.0",
+        "grunt": "0.4.2",
+        "ejs": "0.8.4",
+        "optimist": "0.3.4"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "debug": "node debug app.js",
+        "postinstall": "./node_modules/.bin/bower install"
+    },
+    "main": "app.js",
+    "repository": "",
+    "author": "",
+    "license": ""
+}
