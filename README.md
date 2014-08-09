@@ -1,4 +1,3 @@
-sails-angular-bootstrap
-=======================
+# rrr
 
-Sails.js + Angular.js + Twitter Bootstrap
+a [Sails](http://sailsjs.org) application
