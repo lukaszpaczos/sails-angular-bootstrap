@@ -23,13 +23,13 @@ module.exports = function(grunt) {
                 src: ['**/*.!(coffee|less)'],
                 dest: '.tmp/public'
             },
-            { '.tmp/public/js/lib/angular.js':              './bower_components/angular/angular.js' },
-            { '.tmp/public/js/lib/angular-route.js':        './bower_components/angular-route/angular-route.js' },
-            { '.tmp/public/js/lib/angular-resource.js':     './bower_components/angular-resource/angular-resource.js' },
-            { '.tmp/public/js/lib/jquery.js':               './bower_components/jquery/dist/jquery.js' },
-            { '.tmp/public/js/lib/sails.io.js':             './bower_components/bower-sails.io/sails.io.js' },
-            { '.tmp/public/js/lib/socket.io.js':            './bower_components/socket.io-client/dist/socket.io.js' },
-            { '.tmp/public/js/lib/ui-bootstrap.js':         './bower_components/angular-bootstrap/ui-bootstrap.js' }
+                { '.tmp/public/js/dependencies/angular.js':              './bower_components/angular/angular.js' },
+                { '.tmp/public/js/dependencies/angular-route.js':        './bower_components/angular-route/angular-route.js' },
+                { '.tmp/public/js/dependencies/angular-resource.js':     './bower_components/angular-resource/angular-resource.js' },
+                { '.tmp/public/js/dependencies/jquery.js':               './bower_components/jquery/dist/jquery.js' },
+                { '.tmp/public/js/dependencies/sails.io.js':             './bower_components/bower-sails.io/sails.io.js' },
+                { '.tmp/public/js/dependencies/socket.io.js':            './bower_components/socket.io-client/dist/socket.io.js' },
+                { '.tmp/public/js/dependencies/ui-bootstrap.js':         './bower_components/angular-bootstrap/ui-bootstrap.js' }
             ]
         },
         build: {

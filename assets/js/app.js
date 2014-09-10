@@ -1,11 +1,16 @@
 'use strict';
 
+/**
+ * Define the app module ("App")
+ *
+ * Bring any module dependencies (ngRoute, etc.)
+ */
 
-// Declare app level module which depends on filters, and services
-angular.module('app', [
-    'ngRoute',
-    'app.filters',
-    'app.services',
-    'app.directives',
-    'app.controllers'
-]);
+(function() {
+    var dependencies = [
+        'ngResource',
+        'ngRoute'
+    ];
+
+    angular.module('app', dependencies);
+})();

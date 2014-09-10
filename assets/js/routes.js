@@ -1,15 +1,24 @@
-angular.module('app').config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/view1', {
-        templateUrl: 'js/app/views/partial1.html',
-        controller: 'MyCtrl1'
-    });
+'use strict';
 
-    $routeProvider.when('/view2', {
-        templateUrl: 'js/app/views/partial2.html',
-        controller: 'MyCtrl2'
-    });
+/**
+ * Configure client-side routes (#/foo, #/bar, etc.)
+ */
 
-    $routeProvider.otherwise({
-        redirectTo: '/view1'
-    });
-}]);
+angular.module('app').config([
+    '$routeProvider',
+    function($routeProvider) {
+        $routeProvider.when('/view1', {
+            templateUrl: 'js/app/views/partial1.html',
+            controller: 'Test1Controller'
+        });
+
+        $routeProvider.when('/view2', {
+            templateUrl: 'js/app/views/partial2.html',
+            controller: 'Test2Controller'
+        });
+
+        $routeProvider.otherwise({
+            redirectTo: '/view1'
+        });
+    }
+]);
